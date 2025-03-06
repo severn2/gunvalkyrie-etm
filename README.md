@@ -27,11 +27,11 @@ Rebind Listing
 0x00017987 add ecx,0x18
 0x0001798a jmp next
 
-0x00017b11 cmp edx, ecx ; == LS
+0x00017b11 cmp edx,ecx ; == LS
 0x00017b14 je ( 00018bc6 ) ; A->LS
 0x00017b1a jmp next
 
-0x00018b91 mov [edx], eax
+0x00018b91 mov [edx],eax
 0x00018b93 jmp ( 00018bc9 )
 0x00018b95 mov byte ptr [ecx+0x10],eax ; RB->A
 0x00018b98 jmp ( 00018bc9 )
