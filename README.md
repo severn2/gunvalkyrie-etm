@@ -8,7 +8,7 @@ Rebind Listing
 ```
 7 14-byte caves
 
-0x00015b35 jmp next
+0x00015b35 call next
 
 0x00016c51 pushf
 0x00016c52 push ecx
