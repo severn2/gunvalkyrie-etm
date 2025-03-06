@@ -1,6 +1,5 @@
 ![](screenshot.png)
 
-Alternative control scheme for GunValkyrie on the Original Xbox
 - Controller Rebind ( A->RB - RB->LS - LS->A )
   - Boost = RB, Timer = A, Confirm = LS 
 - Revert RS Y-Axis
@@ -34,12 +33,12 @@ Rebind Listing
 
 0x00018b91 mov [edx],eax
 0x00018b93 jmp ( 00018bc9 )
-0x00018b95 mov byte ptr [ecx+0x10],eax ; RB->A
+0x00018b95 mov byte ptr [ecx+0x10],al ; RB->A
 0x00018b98 jmp ( 00018bc9 )
 
-0x00018bc1 mov byte ptr [ecx+0x18],eax ; LS->RB
+0x00018bc1 mov byte ptr [ecx+0x18],al ; LS->RB
 0x00018bc4 jmp ( 00018bc9 )
-0x00018bc6 mov dword ptr [ecx-0x28],eax ; A->LS
+0x00018bc6 mov byte ptr [ecx-0x28],al ; A->LS
 0x00018bc9 add edx,4
 0x00018bcc pop ecx
 0x00018bcd popf
