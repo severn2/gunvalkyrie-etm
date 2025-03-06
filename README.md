@@ -2,6 +2,7 @@
 
 Alternative control scheme for GunValkyrie on the Original Xbox
 - Controller Rebind ( A->RB - RB->LS - LS->A )
+  - Boost = RB, Timer = A, Confirm = LS 
 - Invert RS Y-Axis
 
 Rebind Listing
